@@ -4,19 +4,19 @@ Repository with basic setup to quick start Spring & React projects
 
 Instructions:
 
--Create a project folder with backend and frontend folders
+- Create a project folder with backend and frontend folders
 
 ![ScreenShot](https://user-images.githubusercontent.com/50384743/99128817-a1ad5b80-25ea-11eb-9a84-8ddc5f3bf70f.png)
 
--Create new Spring project on Spring Initializr and extract it on backend folder
+- Create new Spring project on Spring Initializr and extract it on backend folder
 
--Create new React project on front end folder
+- Create new React project on front end folder
 
 ```
 create-react-app app-name
 ```
 
--Add the following to pom.xml
+- Add the following to pom.xml
 ```xml
 <plugin>
    <groupId>com.github.eirslett</groupId>
@@ -76,3 +76,4 @@ create-react-app app-name
   </executions>
 </plugin>
 ```
+- Change nodeVersion and npmVersion to their respective versions on your enviroment
