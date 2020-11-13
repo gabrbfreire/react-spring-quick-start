@@ -10,7 +10,7 @@ Instructions:
 
 - Create new Spring project on Spring Initializr and extract it on backend folder
 
-- Create new React project on front end folder
+- Create new React project on frontend folder
 
 ```
 create-react-app app-name
