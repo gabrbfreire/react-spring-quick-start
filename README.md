@@ -33,8 +33,8 @@ create-react-app app-name
                <goal>install-node-and-npm</goal>
            </goals>
            <configuration>
-               <nodeVersion>v8.11.3</nodeVersion>
-               <npmVersion>5.6.0</npmVersion>
+               <nodeVersion>v15.1.0</nodeVersion>
+					<npmVersion>7.0.8</npmVersion>
            </configuration>
        </execution>
        <execution>
@@ -58,7 +58,9 @@ create-react-app app-name
    </executions>
 </plugin>
 <plugin>
+  <groupId>org.apache.maven.plugins</groupId>
   <artifactId>maven-antrun-plugin</artifactId>
+  <version>1.8</version>
   <executions>
       <execution>
           <phase>generate-resources</phase>
@@ -76,4 +78,6 @@ create-react-app app-name
   </executions>
 </plugin>
 ```
-- Change nodeVersion and npmVersion to their respective versions on your enviroment
+- Change <nodeVersion> and <npmVersion> to their respective versions on your enviroment
+
+- Check this repository files for an example
