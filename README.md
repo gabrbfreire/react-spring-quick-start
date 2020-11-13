@@ -78,6 +78,6 @@ create-react-app app-name
   </executions>
 </plugin>
 ```
-- Change ```xml <nodeVersion>``` and ```xml <npmVersion>``` to their respective versions on your enviroment
+- Change ```<nodeVersion>``` and ```<npmVersion>``` to their respective versions on your enviroment
 
 - Check this repository files for an example
